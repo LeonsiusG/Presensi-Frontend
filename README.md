@@ -24,13 +24,13 @@ Memakai Tailwind v4  `app/globals.css`:
 ## Cara Pakai 
 
 1. **Login** menggunakan salah satu akun yang telah saya sediakan.
-2. **Presensi**: isi Kata-kata hari ini (opsional) → klik **Check-in** lalu **Check-out** (1x per hari).
+2. **Presensi**: isi Catatan (opsional) → klik **Check-in** lalu **Check-out** (1x per hari).
 3. **Riwayat**: lihat daftar presensi; Admin bisa filter per pengguna.
 4. **Pengguna**:
 
    * **Admin**: tambah/hapus user.
-   * **Member**: Presensi
-5. **Analisis**: pilih **rentang tanggal** (dan user untuk Admin) untuk melihat:
+   * **Siswa**: Presensi
+5. **Analisis**: pilih **rentang tanggal** (dan Siswa untuk Admin) untuk melihat:
 
    * total hari hadir,
    * **% kehadiran**,
@@ -38,7 +38,7 @@ Memakai Tailwind v4  `app/globals.css`:
 
 ## Fitur Utama
 
-* **Autentikasi & Otorisasi** (role Admin/Member)
+* **Autentikasi & Otorisasi** (role Admin/Siswa)
 * **Kelola Data Pengguna** (create/-)
 * **Pencatatan Presensi** (check-in/out)
 * **Riwayat Presensi** per pengguna
